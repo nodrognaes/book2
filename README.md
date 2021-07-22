@@ -44,3 +44,4 @@ THEN I am logged out of the site and presented with a menu with the options Sear
 
 ## Deployed link: ##
 
+https://floating-river-78697.herokuapp.com/
