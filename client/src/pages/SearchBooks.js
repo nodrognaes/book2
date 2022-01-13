@@ -111,6 +111,9 @@ const SearchBooks = () => {
             ? `Viewing ${searchedBooks.length} results:`
             : 'Search for a book to begin'}
         </h2>
+        <p>
+          {Auth.loggedIn() ? null : 'Login or create an account to save books to your favorites!'}
+        </p>
         <CardColumns>
           {searchedBooks.map((book) => {
             return (
